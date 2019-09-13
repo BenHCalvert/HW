@@ -59,6 +59,7 @@
     }
     /* show background */
     .break-bar{
+        background: #ddd;
         width: 100%;
         height: 20px;
         position:absolute;
