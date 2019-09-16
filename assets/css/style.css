@@ -109,11 +109,36 @@
         float: left;
     }
     /* Portfolio Page Picture */
-    #Picture-Portfolio{
+     .portfolio-img {
+        position: relative;
         float: left;
-        padding: 20px 20px;
-    }
-    /* change impage opacity */
-    #Picture-Portfolio a:hover {
-        opacity: 0.8;    
-    }
+      }
+      
+      /* Portfolio caption */
+      .caption {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: #4aaaa5; opacity: 0.8  ;
+        color: white;
+        padding-left: 250px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 18px;
+      }
+
+      .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #666;
+        color: white;
+        text-align: center;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 10px;
+        padding: 7px;
+        border-top: 3px #4aaaa5;
+      }
